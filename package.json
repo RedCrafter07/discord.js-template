@@ -1,0 +1,34 @@
+{
+	"name": "discord.js-template",
+	"version": "1.0.0",
+	"description": "A discord.js bot starter template with typescript and a command handler.",
+	"main": "index.js",
+	"scripts": {
+		"run:dev": "tsc && node .",
+		"dev": "nodemon -e \"ts,json\" --exec \"npm run run:dev\"",
+		"build": "tsc",
+		"start": "node ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RedCrafter07/discord.js-template.git"
+	},
+	"keywords": [],
+	"author": "RedCrafter07",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/RedCrafter07/discord.js-template/issues"
+	},
+	"homepage": "https://github.com/RedCrafter07/discord.js-template#readme",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"discord.js": "^13.6.0",
+		"fs": "^0.0.1-security"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.12.0",
+		"@typescript-eslint/parser": "^5.12.0",
+		"eslint": "^8.9.0",
+		"nodemon": "^2.0.15"
+	}
+}
